@@ -33,3 +33,45 @@
 </body>
 
 </html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<h1>수습 국원 지원 양식</h1>
+</head>
+
+<body>
+<table>
+  <colgroup>
+    <col style="background-color:#eee;">
+    <col style="background-color:#eee;">
+    <col style = "background-color:#eee;width:200px">
+    <col style = "background-color:#eee;width:200px">
+  </colgroup>
+  <thead></thead>
+  <tbody>
+    <tr>
+    <td rowspan="3">개인정보</td>
+    <td>이름</td>
+    <td>      </td>
+  </tr>
+  <tr>
+    <td>학과/학번</td>
+    <td>      </td>
+  </tr>
+  <tr>
+    <td>연락처</td>
+    <td>      </td>
+  </tr>
+  <tr>
+    <td>지원 분야</td>
+    <td colspan="2"></td>
+  </tr>  
+  </tbody>
+  
+</table>
+</body>
+
+</html>
