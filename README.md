@@ -75,3 +75,64 @@
 </body>
 
 </html>
+\
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>연습문제 2</title>
+    <style>
+			#container { 
+				width:520px;
+				border:1px solid black;
+				padding:20px 40px;
+				margin:0 auto;
+			}
+      fieldset { margin-bottom:15px; }
+      legend { font-weight:bold; }
+			ul {list-style-type: none;}
+			li { line-height:30px;}
+    </style>
+  </head>
+  <body>
+		<div id="container">
+			<h1>프런트엔드 개발자 지원서 </h1>
+			<p>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
+			<hr>
+			<form>
+				개인 정보
+        <ul>
+          <lable for="r-name">이름</lable>
+          <input type="text" id="r-name" placeholder="공백 없이 입력하세요" required>
+          <br>
+          <lable for="r-phone">연락처</lable>
+          <input type="tel" id="r-phone" required>
+        </ul>
+        지원 분야
+        <ul>
+          <input type="radio" name="web_pub" id="web_pub" value="web_pub">
+          <label for="web_pub">웹 퍼블리싱</label>
+          <br>
+          <input type="radio" name="web_api" id="web_api" value="web_api">
+          <label for="web_api">웹 애플리케이션 개발</label>
+          <br>
+          <input type="radio" name="dev_atm" id="dev_atm" value="dev_atm">
+          <label for="dev_atm">개발 환경 개선</label>
+        </ul>
+        지원동기
+        <br>
+        <br>
+        <textarea cols="40" rows="4" placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
+        <br>
+        <input type="button" value="접수하기">
+        <input type="button" value="다시쓰기">
+			</form>
+		</div>
+  </body>
+</html>
